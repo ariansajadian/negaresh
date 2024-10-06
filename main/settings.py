@@ -89,9 +89,9 @@ WSGI_APPLICATION = 'main.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-# DATABASES = {
-#     "default":dj_database_url.config(default='mysql://root:bwskxvFHnyKXPzxLm26TarjE@lhotse.liara.cloud:34897/youthful_wilbur')
-# }
+DATABASES = {
+    "default":dj_database_url.config(default='postgres://default:ny82SEwerQJl@ep-crimson-base-a4i590d3-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require')
+}
 
 REST_FRAMEWORK = {
     # YOUR SETTINGS
